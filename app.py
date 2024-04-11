@@ -10,7 +10,7 @@ app.config["SECRET_KEY"] = "seasdad(*2sffcra01^23sdet"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "salary-api.azurewebsites.net" # base url for API endpoints
+api_url = "https://salary-api.azurewebsites.net" # base url for API endpoints
 
 # main index page route
 @app.route("/")
